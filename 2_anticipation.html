@@ -6,6 +6,25 @@
     <title>Anticipation - 12 Principles of Animation</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="2_anticipation.css" />
+
+
+    <style>
+      .disappear {
+        animation: disappear 2s cubic-bezier(0.46, -0.38, 0.52, 1);
+      }
+
+      @keyframes disappear {
+        from {
+          transform: translate(0);
+        }
+
+        to {
+          transform: translateY(45vw);
+        }
+      }
+    </style>
+
+
   </head>
   <body>
     <h2>12 Principles of Animation</h2>
